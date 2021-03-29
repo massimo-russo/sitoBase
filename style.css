@@ -56,7 +56,7 @@
   }
    /*blocco testo 1*/
   .box-testo1{
-    background-image: url(./img/pc.jpg);
+    background-image: url(pc.jpg);
     background-size: cover;
     height: 50rem;
     width: 120rem;
@@ -120,17 +120,17 @@
     align-self: flex-end;
   }
   .b-argomenti .html {
-    background-image: url(./img/html.png);
+    background-image: url(html.png);
     height:6rem;
     width: 6rem;
   }
   .b-argomenti .css {
-    background-image: url(./img/css.png);
+    background-image: url(css.png);
     height:6rem;
     width: 10rem;
   }
   .b-argomenti .js {
-    background-image: url(./img/js.png);
+    background-image: url(js.png);
     height:10rem;
     width: 10rem;
   }
@@ -185,7 +185,7 @@
   }
 
   .b-progetti .box.image {
-    background-image: url(./img/pc2.jpg);
+    background-image: url(pc2.jpg);
     background-size: cover;
   }
   
