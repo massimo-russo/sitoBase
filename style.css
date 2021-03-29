@@ -56,7 +56,7 @@
   }
    /*blocco testo 1*/
   .box-testo1{
-    background-image: url(./pc.jpg);
+    background-image: url(pc.jpg);
     background-size: cover;
     height: 50rem;
     width: 120rem;
