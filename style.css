@@ -1,0 +1,202 @@
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 90;
+    font-size: 70%;
+  }
+
+  /*corpo*/
+  body {
+    font-size: 1.8rem;
+    color: black;
+  }
+  /* -- NAV BAR -- */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    align-items: center;
+    height: 5rem;
+    background-color: black;
+    color:white;
+  }
+  header h1 {
+    font-size: 2.9rem;
+    font-family: RalewayBold;
+  }
+  /*DEFINIZIONE ELEMENTI DEL MENU*/
+  .menu {
+    width: 50rem;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: var(--transition-button);
+  }
+  .menu a:hover,
+  a.active {
+    color:red;
+  }
+  .titolo{
+    font-size: 20%;;
+    padding: 5rem;
+  }
+   /*blocco testo 1*/
+  .box-testo1{
+    background-image: url(./img/pc.jpg);
+    background-size: cover;
+    height: 50rem;
+    width: 120rem;
+    font-size: 90%;;
+    padding: 10rem;
+  }
+    /* -- NEWSLETTER -- */
+  .newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 6rem;
+    background-color:red;
+  }
+  .newsletter .campo {
+    color: white;
+  }
+  .newsletter .campo h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+  }
+  
+  /* -- ARGOMENTI -- */
+  .primo h2,.progetti h2 {
+    margin-top: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .primo p,.progetti p {
+    margin: 10rem auto;
+    width: 60rem;
+    text-align: center;
+  }
+
+  .b-argomenti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .b-argomenti .box {
+    height: 26rem;
+    width: 26rem;
+    margin: 0 3rem;
+    background-color:rgb(99, 96, 96);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    font-size: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
+    position: relative;
+  }
+
+  /*caricamento immagini*/
+  .b-argomenti .icon {
+    background-size: cover;
+    height:4.2rem;
+    width: 6rem;
+    align-self: flex-end;
+  }
+  .b-argomenti .html {
+    background-image: url(./img/html.png);
+    height:6rem;
+    width: 6rem;
+  }
+  .b-argomenti .css {
+    background-image: url(./img/css.png);
+    height:6rem;
+    width: 10rem;
+  }
+  .b-argomenti .js {
+    background-image: url(./img/js.png);
+    height:10rem;
+    width: 10rem;
+  }
+  .b-argomenti p {
+    height: 1rem;
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+  .b-argomenti p::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    background-color: var(--white-color);
+    height: 40%;
+    width: 0.5rem;
+    text-align: left;
+  }
+  .progetti {
+    margin-top: 6rem;
+  }
+  
+  .b-progetti {
+    display: grid;
+    margin: 10rem 0;
+    grid-template-columns: repeat(2, 40rem);
+    grid-template-rows: repeat(2, 30rem);
+    justify-content: center;
+    color: white;
+  }
+  .b-progetti .box {
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .b-progetti .b-testo p {
+    width: 25rem;
+    height:1rem;
+  }
+  .b-progetti .box p {
+    text-align: left;
+    font-size: 1rem;
+  }
+  .b-progetti .box button {
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: red;
+  }
+
+  .b-progetti .box.image {
+    background-image: url(./img/pc2.jpg);
+    background-size: cover;
+  }
+  
+  /* -- FOOTER -- */
+  footer {
+    background-color: black;
+  }
+  footer p {
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+  }
+
+  
